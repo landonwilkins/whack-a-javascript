@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Web Warrior</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="code.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+
+
+<div id="header">
+
+  </div>
+  
+<div id="middle wrapper">
+
+<div id="leftguy">
+	<div id="leftguyhealth">
+	<p> Health = <span id = "yourHealthNumber">100</span> </p>
+    </div>
+
+  <img id="leftguypic" src="leftguyresting.png" width="300" height="300" alt="You" />
+  </div>
+
+<div id="center">
+	<div id="countdown" class = "centerThisShit">
+		<p> Countdown: <span id="countdownNumber"></span></p>
+    </div>
+	<div id="chain" class = "centerThisShit">
+		<p> Chain: <span id="chainNumber"></span></p>
+    </div>
+
+	<div id="middleBox">
+	</div>
+
+</div>
+
+<div id="rightguy">
+	<div id="rightguyhealth">
+	<p> Health = <span id = "badGuyHealthNumber">100</span> </p>
+    </div>
+
+  <img id="rightguypic" src="rightguyresting.png" width="300" height="300" alt="Guide" />
+  </div>
+  
+  </div>
+
+  
+<div id="actionbar">
+  <img src="bar_01.png" width="73" height="42" alt="Attack" onclick = "beginChain()" 
+			onmouseover = "this.src = 'bargreen_01.png'"
+			onmouseout = "this.src = 'bar_01.png'"/>
+  <img src="bargrey_02.png" width="73" height="42" alt="Magic" />
+  <img src="bargrey_03.png" width="74" height="42" alt="Special" />
+  <img src="bargrey_04.png" width="72" height="42" alt="Items" /> 
+  </div>
+
+</div>
+</body>
+</html>
